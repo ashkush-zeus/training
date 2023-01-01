@@ -1,0 +1,48 @@
+body {
+    background-color:rgb(245, 236, 190);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    letter-spacing: 20px;
+    padding: 5px;
+    color: bisque;
+    text-align: center;
+    background-color:darkred;
+    border-bottom: 15px solid rgb(220, 21, 21);
+}
+
+h2 {
+    color: white;
+    background-color: green;
+    padding: 5px 0px 5px 20px;
+}
+
+h3 {
+    color: rgb(132, 131, 131);
+}
+
+ul {
+    font-style: italic;
+    color:brown;
+}
+
+img {
+    width: 250px;
+    border: 3px dotted rgb(206, 203, 203);
+}
+
+table {
+    background-color: rgb(206, 202, 202);
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-variant: small-caps;
+    font-style: italic;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login In</title>
+        <meta content="width=device-width" name="viewport" />
+        <link rel="stylesheet" href="styles/dashboard.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="header_logo" src="images/logo-used-in-header.svg" alt="logo of quantum">
+            <div>
+                <div class="drop_down">
+                    <ul class="nav">
+                        <div class="nav_active"><li><a id="act" href="#dashboard">DASHBOARD</a></li></div>
+                        <div><li><a href="#content">CONTENT</a></li></div>
+                        <div><li><a href="#users">USERS</a></li></div>
+                        <div><li><a href="#reports">REPORTS</a></li></div>
+                        <div><li><a href="#admin">ADMIN</a></li></div>
+                    </ul>
+                    <div class="nav_icons">
+                        <img src="images/alerts.svg" alt="alert icon"><span class="badge1">2</span>
+                        <img src="images/announcements.svg" alt="announcement icon"><span class="badge2">1</span>
+                        <img class="profile" src="images/ashish_pic.jpeg" alt="profile picture"><span class="badge3">T</span>
+                    </div>
+                    <img class="menu_button" src="images/hamburger-menu.svg" alt="menu icon">
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <ul class="nav_container">
+                <div class="active"><li><a href="#courses"><img src="images/courses.svg" alt="courses icon">&nbsp;<strong>4</strong>&nbsp; Courses</a></li></div>
+                <div><li><a href="#content"><img src="images/classes.svg" alt="classses icon">&nbsp;<strong>4</strong>&nbsp; Classes</a></li></div>
+            </ul>
+            <div class="showing_content">
+                <p>Showing 4 of 4 courses</p>
+                <p class="sort_by">Sort By:</p>
+                <select>
+                    <option>Course Name</option>
+                </select>
+                <img src="images/sort.svg" alt="sort icon">
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="card_content">
+                        <img class="card_img" src="images/imageMask.png" alt="item photo">
+                        <div class="card_details">
+                            <h1>Acceleration</h1>
+                            <img class="fav" src="images/favourite.svg" alt="favourite icon">
+                            <p>Physics | Grade 7 <span> +2</span></p>
+                            <p><strong>4</strong> Units <strong>18</strong> Lessons <strong>24</strong> Topics</p>
+                            <select>
+                                <option>Mr.Frank's Class B</option>
+                            </select>
+                            <p>50 students | 21-Jan-2022 - 21-Aug-2022</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="images/preview.svg" alt="preview icon">
+                        <img src="images/manage-course.svg" alt="manage course icon">
+                        <img src="images/grade-submissions.svg" alt="grade icon">
+                        <img src="images/reports.svg" alt="reports icon">
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card_content">
+                        <img class="card_img" src="images/imageMask-1.png" alt="item photo">
+                        <div class="card_details">
+                            <h1>Displacement, Velocity and Speed</h1>
+                            <img class="fav" src="images/favourite.svg" alt="favourite icon">
+                            <p>Physics 2 | Grade 6 <span> +3</span></p>
+                            <p><strong>2</strong> Units <strong>15</strong> Lessons <strong>20</strong> Topics</p>
+                            <select>
+                                <option>No Classes</option>
+                            </select>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="images/preview.svg" alt="preview icon">
+                        <img class="disabled" src="images/manage-course.svg" alt="manage course icon">
+                        <img class="disabled" src="images/grade-submissions.svg" alt="grade icon">
+                        <img src="images/reports.svg" alt="reports icon">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card_content">
+                        <img class="card_img" src="images/imageMask-3.png" alt="item photo">
+                        <div class="card_details">
+                            <h1>Introduction to Biology: Micro orgnisms and how they affec...</h1>
+                            <img class="fav" src="images/favourite.svg" alt="favourite icon">
+                            <p>Biology | Grade 4 <span> +1</span></p>
+                            <p><strong>5</strong> Units <strong>16</strong> Lessons <strong>22</strong> Topics</p>
+                            <select>
+                                <option>All Classes</option>
+                            </select>
+                            <p>300 students</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="images/preview.svg" alt="preview icon">
+                        <img class="disabled" src="images/manage-course.svg" alt="manage course icon">
+                        <img class="disabled" src="images/grade-submissions.svg" alt="grade icon">
+                        <img src="images/reports.svg" alt="reports icon">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="Expired">EXPIRED</span>
+                    <div class="card_content">
+                        <img class="card_img" src="images/imageMask-2.png" alt="item photo">
+                        <div class="card_details">
+                            <h1>Introduction to Hight School Mathematics</h1>
+                            <img class="fav fav_disabled" src="images/favourite.svg" alt="favourite icon">
+                            <p>Mathematics | Grade 8 <span> +4</span></p>
+                            <p></p>
+                            <select>
+                                <option>Mr. Frank's Class A</option>
+                            </select>
+                            <p>44 students | 14-Oct-2019 - 20-Oct-2020</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="images/preview.svg" alt="preview icon">
+                        <img src="images/manage-course.svg" alt="manage course icon">
+                        <img src="images/grade-submissions.svg" alt="grade icon">
+                        <img src="images/reports.svg" alt="reports icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><span>About</span> | <span>Contact Us</span></p>
+            <div class="footer_content">
+                <img src="images/logo-used-in-footer.svg" alt="logo of quantum">
+                <p>&emsp; | &emsp; Copyright &copy; 2020-2021 <strong>Zeus Systems Pvt.Ltd.</strong>&emsp; All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

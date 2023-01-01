@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login In</title>
+        <meta content="width=device-width" name="viewport" />
+        <link rel="stylesheet" href="styles/login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="header_logo" src="images/logo-used-in-header.svg" alt="logo of quantum">
+        </header>
+        <div class="container">
+            <div class="form_title">
+                <img class="back_logo" src="images/back.svg" alt="back icon image">
+                <h1 class="title">Log in with Quantum</h1>
+            </div>
+            <form>
+                <div>
+                    <label class="radio_content">
+                        <input type="radio" value="Distrct" name="radio1">
+                        <span class="radio_img"><img src="images/radio-button-off.svg" alt="radio off button icon"></span>
+                        District
+                    </label>
+                    <label class="radio_content radio_content2">
+                        <input type="radio" value="Independent School" name="radio1">
+                        <span class="radio_img"><img src="images/radio-button-off.svg" alt="radio off button icon"></span>
+                        Independent School
+                    </label>
+                </div>
+                <div class="select_content">
+                    <label>State*</label>
+                    <select name="state" >
+                        <option value="Alabama">Alabama</option>
+                    </select>
+                </div>
+                
+                <div class="select_content">
+                    <label>District*</label>
+                    <select name="" >
+                        <option value="Alabama School District">Alabama School District</option>
+                    </select>
+                </div>
+
+                <div class="field_content">
+                    <input type="text" placeholder="Username/Email ID*">
+                    <a href="#">FORGOT USERNAME?</a>
+                </div>
+                <div class="field_content">
+                    <input type="password" placeholder="Password*">
+                    <span><img class="preview" src="images/preview.svg" alt="preview icon"></span>
+                    <a href="#">FORGOT PASSWORD?</a>
+                </div>
+
+                <div class="checkbox_field">
+                    <input type="checkbox">
+                    <label>Remember me</label>
+                </div>
+                <button class="submit" type="submit">LOG IN</button>
+            </form>
+        </div>
+        <footer>
+            <p><span>About</span> | <span>Contact Us</span></p>
+            <div class="footer_content">
+                <img src="images/logo-used-in-footer.svg" alt="logo of quantum">
+                <p>&emsp; | &emsp; Copyright &copy; 2020-2021 <strong>Zeus Systems Pvt.Ltd.</strong>&emsp; All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

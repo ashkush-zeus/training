@@ -1,0 +1,320 @@
+
+html, body {
+    width: 100%;
+    margin: 0;
+    background-color:rgb(236, 231, 244);
+    font-family: 'Quicksand';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url("images/header-pattern-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(16, 0, 70);
+    border-bottom: 7px solid rgb(110, 202, 227);
+}
+.header_logo {
+    width: 300px;
+    padding: 20px 0 20px 40px;
+}
+.container {
+    padding: 50px;
+}
+
+.menu_button {
+    width: 50px;
+    display: none;
+}
+
+.drop_down {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content:start
+}
+.nav div > li a {
+    text-decoration: none;
+    color: #3FD28B;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+.nav_active {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 5px solid white;
+}
+#act {
+    color: white;
+}
+.nav_icons {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.nav_icons > img {
+    width: 40px;
+    margin: 0 20px;
+}
+.badge1 {
+    position: absolute;
+    top: -10px;
+    text-align: center;
+    left: 45px;
+    width: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #2A7FF3;
+    color: white;
+    border-radius: 30px;
+}
+.badge2 {
+    position: absolute;
+    top: -10px;
+    text-align: center;
+    left: 125px;
+    width: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #2A7FF3;
+    color: white;
+    border-radius: 30px;
+}
+.badge3 {
+    position: absolute;
+    top: -10px;
+    text-align: center;
+    left: 200px;
+    width: 25px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #3FD28B;
+}
+
+.nav_container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    background-color: #8DDC97;
+    border-radius: 2px;
+    list-style-type: none;
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav_container > div {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.active {
+    border-bottom: 5px solid rgb(51, 50, 50);
+}
+.nav_container div > li a {
+    text-decoration: none;
+    color: #403f3f;
+}
+.nav_container div > li a strong {
+    color: #222222;
+}
+.nav_container div > li a img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.showing_content select {
+    border: 0;
+    padding: 0 10px;
+    background-color: rgb(236, 231, 244);
+    font-size: 25px;
+    color: #515050;
+    font-weight: 700;
+    appearance: none;
+    background-image: url(images/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 100%;
+    background-position-y: 10px;
+    padding-right: 3rem;
+}
+.showing_content {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 4px solid rgb(205, 203, 203);
+    font-size: 20px;
+    font-weight: 600;
+    color: #9b9a9a;
+}
+.sort_by {
+    margin-left: auto;
+}
+.showing_content img {
+    margin-left: 40px;
+    width: 20px;
+}
+
+.content {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr))
+    
+}
+
+.card {
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    padding: 30px 30px;
+}
+.card_content {
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 4px solid rgb(232, 231, 231);
+}
+.card_details > h1 {
+    font-size: 30px;
+    color: #222222;
+}
+.card_details > p strong {
+    color: black;
+}
+.card_details > p span {
+    color: #1F7A54;
+}
+.card_details {
+    width: 100%;
+    position: relative;
+    margin: 0 50px 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #9b9a9a;
+}
+.card_details > select  {
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid rgb(240, 239, 239);
+    font-size: 25px;
+    color: #515050;
+    font-weight: 700;
+    appearance: none;
+    background-image: url(images/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position-x: 100%;
+    background-position-y: -5px;
+}
+.disabled {
+    opacity: 0.5;
+}
+.fav {
+    width: 50px;
+    position: absolute;
+    right: -50px;
+    top: 10px;
+}
+.card_img {
+    width: 332px;
+}
+.icons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.Expired {
+    position:absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFE4E6;
+    color: #D80000;
+}
+.icons > img {
+    width: 40px;
+}
+
+footer {
+    width: 100%;
+}
+.footer_content {
+    width: 100%;
+    background-color: #E0E1E1;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #616161;
+}
+.footer_content img {
+    width: 200px;
+}
+footer > p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #bebdbd;
+}
+footer p > span {
+    color: #1F7A54;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)) ;
+    }
+    .menu_button {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .nav_active {
+        display: inline;
+        border: 0;
+    }
+    #act {
+        color: #1F7A54;
+    }
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100px;
+        background-color: #f9f9f9;
+        width: 250px;
+        height: 300px;
+        z-index: 1;
+      }
+      .drop_down:hover .nav {
+        display: block;
+      }
+      .footer_content {
+        font-size: 15px;
+      }
+}

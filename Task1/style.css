@@ -1,0 +1,47 @@
+body {
+    background-color: #dfe1e4;
+}
+.main {
+    width: 457px;
+    height: 138px;
+    display: flex;
+    border: 2px solid grey;
+    padding: 4px;
+    font-family: 'Roboto';
+}
+
+.profile-photo {
+    width: 130px;
+    /* border: 2px solid red; */
+}
+.name {
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.des {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.inside-content {
+    margin-left: 14px;
+}
+
+.icon {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.number {
+    font-weight: 500;
+    color: #858991;
+    margin: 0px 24px 0px 0px;
+    display: inline;
+    font-size: 15px;
+}
